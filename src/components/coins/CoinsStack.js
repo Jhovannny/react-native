@@ -22,7 +22,7 @@ const CoinsStack = () => {
             />
 
             <Stack.Screen 
-            name="CoinDetailsScreen"  
+            name="DetailsCoponent"  
             component={CoinDetailsScreen}
             />
 

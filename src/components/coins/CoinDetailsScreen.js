@@ -1,20 +1,28 @@
 
 import React, { Component } from 'react';
 
-import {View, Text} from 'react-native';
+import {Text,View,StyleSheet} from 'react-native';
 
 
 class CoinDetailsScreen extends Component{
     render(){
         return(
-            <View>
-                <Text>Pantalla </Text>              
-                 <Text> Pantalla detalle  jhovannydsm53</Text>
+           
+                <View style={style.container}>
+                 <Text> Pantalla detail jhovannydsm53</Text>
 
 
             </View>
         )
     }
 }
+
+
+const styles= StyleSheet.create({
+   container:{
+       backgroundColor:'yellow',
+       flex: 1,
+   } 
+})
 
 export default CoinDetailsScreen;
