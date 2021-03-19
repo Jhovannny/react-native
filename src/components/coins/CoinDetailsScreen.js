@@ -9,7 +9,7 @@ class CoinDetailsScreen extends Component{
         return(
            
                 <View style={style.container}>
-                 <Text> Pantalla detail jhovannydsm53</Text>
+                 <Text> Pantalla detail Luis Jhovanny</Text>
 
 
             </View>

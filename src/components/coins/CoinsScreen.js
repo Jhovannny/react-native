@@ -13,7 +13,7 @@ class CoinsScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <Text style={styles.btnText}> Pantalla luis jhovannydsm53   </Text>
+                <Text style={styles.btnText}> Pantalla Luis Jhovanny  </Text>
                 <Pressable  style = {styles.btn} onPress={this.handlesPress}><Text style={styles.btnText}>Ir  a Detalle </Text></Pressable>
             </View>
         )
